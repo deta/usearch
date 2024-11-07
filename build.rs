@@ -80,7 +80,7 @@ fn main() {
             .flag_if_supported("/std:c++17")
             .flag_if_supported("/O2")
             .flag_if_supported("/fp:fast")
-            .flag_if_supported("/W1") // Reduce warnings verbosity
+            .flag_if_supported("/W1")
             .flag_if_supported("/EHsc")
             .flag_if_supported("/MD")
             .flag_if_supported("/permissive-")
